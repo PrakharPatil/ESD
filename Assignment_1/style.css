@@ -1,0 +1,10 @@
+.bg-img {
+  position: absolute;
+  /* width: 500px; */
+  max-height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+.nav-link {
+  color: aliceblue;
+}
