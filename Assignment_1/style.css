@@ -4,7 +4,73 @@
   max-height: 60vh;
   width: 100%;
   object-fit: cover;
+  z-index: -1;
+}
+.backimage {
+  position: absolute;
+  /* width: 500px; */
+  /* max-height: 60vh; */
+  background-image: url("images/ella-olsson-opbjwbccaeo-unsplash.jpg");
+  /* overflow-y: auto; */
+  height: 844px;
+  width: 100%;
+  /* object-fit: cover; */
+  z-index: -1;
+}
+.darken {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 0;
+}
+.navbar-brand {
+  text-shadow: 2px 2px 3px black;
 }
 .nav-link {
   color: aliceblue;
+  text-shadow: 2px 2px 3px black;
 }
+.section2 {
+  margin-top: 200px;
+}
+.notcenter {
+  justify-content: center;
+  padding-top: 8rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+.login {
+  /* display: flex; */
+  padding-top: 200px;
+  width: 24%;
+  justify-content: center;
+  /* align-items: center; */
+}
+.logincard {
+  border-radius: 20px;
+}
+.btn-primary {
+  width: 100%;
+}
+.para {
+  margin-bottom: -2px;
+}
+p > a {
+  color: pink;
+}
+.food-card {
+  background-color: #f9c74f;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+/* .food-card img {
+  width: 100%;
+  border-bottom: 2px solid #f8f8f8;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+} */
