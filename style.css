@@ -8,8 +8,8 @@
 .backimage {
   position: absolute;
   background-image: url("images/ella-olsson-opbjwbccaeo-unsplash.jpg");
-
-  height: 844px;
+  justify-content: center;
+  height: 100vh;
   width: 100%;
   z-index: -1;
 }
@@ -38,12 +38,14 @@
   text-shadow: 2px 2px 3px black;
 }
 .login {
-  padding-top: 200px;
-  width: 24%;
+  padding-top: 12rem;
+}
+.login-body {
   justify-content: center;
+  width: 20em;
 }
 .logincard {
-  border-radius: 20px;
+  border-radius: 1rem;
 }
 .btn-primary {
   width: 100%;
@@ -58,7 +60,6 @@ p > a {
   justify-content: center;
 }
 .food-card {
-  /* background: radial-gradient(40deg, #f9c74f, #f9c74f, orange, #f8961e); */
   background: radial-gradient(#f8961e 20%, orange 40%, #f9c74f, #f9c74f);
   background-color: #f9c74f;
   border-top-left-radius: 15em;
