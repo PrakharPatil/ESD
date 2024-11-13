@@ -61,12 +61,22 @@ p > a {
   color: pink;
 }
 .food-card {
+  /* background: radial-gradient(40deg, #f9c74f, #f9c74f, orange, #f8961e); */
+  background: radial-gradient(#f8961e 20%, orange 40%, #f9c74f, #f9c74f);
   background-color: #f9c74f;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 15em;
+  border-top-right-radius: 15em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
   overflow: hidden;
   text-align: center;
+  /* box-shadow: 0 0 20px black; */
+}
+.card-img-top {
+  /* width: 60%;
+   */
+  filter: drop-shadow(5px 5px 10px black);
+
+  /* box-shadow: 0 0 20px black; */
 }
 /* .food-card img {
   width: 100%;
@@ -74,3 +84,40 @@ p > a {
   background-color: #f8f8f8;
   border-radius: 20px;
 } */
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* width: fit-content; */
+  height: fit-content;
+}
+
+.card-body {
+  text-align: start;
+  padding: -1px;
+}
+.card-title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.rate {
+  /* padding-top: 200px; */
+  /* text-align: end; */
+  text-align: justify;
+  align-content: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.rating {
+  color: maroon;
+  font-size: 1rem;
+  margin-top: 5px;
+  text-align: end;
+  font-size: x-large;
+  font-weight: bold;
+}
+.orderbtn {
+  height: 3em;
+  padding-top: 8px;
+  font-size: large;
+}
